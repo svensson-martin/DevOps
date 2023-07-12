@@ -52,25 +52,13 @@ server <- function(input, output) {
       species = input$species, 
       sex = input$sex
     )
-    # list(
-    #   bill_length_mm = input$bill_length,
-    #   species_Chinstrap = input$species == "Chinstrap",
-    #   species_Gentoo = input$species == "Gentoo",
-    #   sex_male = input$sex == "Male"
-    # )
   )
   
   # Fetch prediction from API
-  #endpoint <- vetiver_endpoint(api_url)
   
   pred <- eventReactive(
     input$predict, 
     predict(endpoint, new_data = vals()) |> pull(.pred)
-    # httr2::request(api_url) |>
-    #   httr2::req_body_json(vals()) |>
-    #   httr2::req_perform() |>
-    #   httr2::resp_body_json(),
-    # ignoreInit = TRUE
   )
   
   # Render to UI
