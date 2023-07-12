@@ -1,0 +1,11 @@
+{
+  "hash": "4f7881b549a0d802bda49e7b1ce84bbd",
+  "result": {
+    "markdown": "---\ntitle: \"Access model\"\nformat: html\n---\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nfrom pins import board_folder\nfrom vetiver import VetiverModel, VetiverAPI\n\nb = board_folder(\"data/model\", allow_pickle_read = True)\nv = VetiverModel.from_pin(b, \"penguin_model\")\napp = VetiverAPI(v, check_prototype = True)\n```\n:::\n\n\n",
+    "supporting": [
+      "model_access_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

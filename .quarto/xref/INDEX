@@ -1,0 +1,113 @@
+{
+  "eda.qmd": {
+    "eda.html": "882b48a1"
+  },
+  "DevOpsforDataScience.qmd": {
+    "DevOpsforDataScience.html": "2643d42c"
+  },
+  "model.qmd": {
+    "model.html": "b542a1e7"
+  },
+  "lib/python3.9/site-packages/pyzmq-25.1.0.dist-info/AUTHORS.md": {
+    "AUTHORS.html": "0f2698ea"
+  },
+  "lib/python3.9/site-packages/jupyter_events-0.6.3.dist-info/licenses/COPYING.md": {
+    "COPYING.html": "8497e8cb"
+  },
+  "lib/python3.9/site-packages/nbclassic/bundler/tests/resources/empty.ipynb": {
+    "empty.html": "bdfed7fd"
+  },
+  "lib/python3.9/site-packages/idna-3.4.dist-info/LICENSE.md": {
+    "LICENSE.html": "046d98ca"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/UnicodePy3.ipynb": {
+    "UnicodePy3.html": "eddae17c"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/JupyterWidgets.ipynb": {
+    "JupyterWidgets.html": "f53ddf1a"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Other Comms.ipynb": {
+    "Other Comms.html": "69c718dc"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/SVG.ipynb": {
+    "SVG.html": "121c9050"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Disable Stdin.ipynb": {
+    "Disable Stdin.html": "fa58ecb2"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Autokill.ipynb": {
+    "Autokill.html": "28ade28c"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/update-display-id.ipynb": {
+    "update-display-id.html": "1f7b7b26"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Inline Image.ipynb": {
+    "Inline Image.html": "4a011041"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Interrupt.ipynb": {
+    "Interrupt.html": "512e1a3c"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Factorials.ipynb": {
+    "Factorials.html": "1e6b91a5"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Skip Exceptions with Cell Tags.ipynb": {
+    "Skip Exceptions with Cell Tags.html": "59a56e1c"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Check History in Memory.ipynb": {
+    "Check History in Memory.html": "8f0a1b26"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Output.ipynb": {
+    "Output.html": "7495bcca"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Clear Output.ipynb": {
+    "Clear Output.html": "2e273288"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Parallel Execute A.ipynb": {
+    "Parallel Execute A.html": "97770e9d"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Empty Cell.ipynb": {
+    "Empty Cell.html": "7e755d12"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Skip Execution with Cell Tag.ipynb": {
+    "Skip Execution with Cell Tag.html": "007f2b0b"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Parallel Execute B.ipynb": {
+    "Parallel Execute B.html": "e2e83339"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Unicode.ipynb": {
+    "Unicode.html": "887d51af"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/HelloWorld.ipynb": {
+    "HelloWorld.html": "4be4d916"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Sleep1s.ipynb": {
+    "Sleep1s.html": "c980bb2b"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Error.ipynb": {
+    "Error.html": "06eb5990"
+  },
+  "lib/python3.9/site-packages/nbclient/tests/files/Skip Exceptions.ipynb": {
+    "Skip Exceptions.html": "4a50a0ba"
+  },
+  "lib/python3.9/site-packages/QtPy-2.3.1.dist-info/AUTHORS.md": {
+    "AUTHORS.html": "39325913"
+  },
+  "lib/python3.9/site-packages/pandas-2.0.3.dist-info/AUTHORS.md": {
+    "AUTHORS.html": "10004d94"
+  },
+  "lib/python3.9/site-packages/notebook/bundler/tests/resources/empty.ipynb": {
+    "empty.html": "752d6bcc"
+  },
+  "lib/python3.9/site-packages/soupsieve-2.4.1.dist-info/licenses/LICENSE.md": {
+    "LICENSE.html": "6883d4e8"
+  },
+  "lib/python3.9/site-packages/traitlets-5.9.0.dist-info/licenses/COPYING.md": {
+    "COPYING.html": "9f1677c3"
+  },
+  "model_access.qmd": {
+    "model_access.html": "a46b42ef"
+  },
+  "model_r.qmd": {
+    "model_r.html": "2f0297b9"
+  }
+}

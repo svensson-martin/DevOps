@@ -1,0 +1,32 @@
+---
+title: "Model R"
+format: html
+---
+
+```{r}
+library(dplyr)
+library(vetiver)
+library(pins)
+```
+
+## Define model and fit
+
+```{r}
+penguins <- palmerpenguins::penguins
+model <- lm(body_mass_g ~ bill_length_mm + species + sex, data = penguins)
+```
+
+## Create vetiver model
+
+```{r}
+v <- vetiver_model(model, "penguin_model_r")
+```
+
+## Save to board
+
+```{r}
+model_board <- board_folder("data/model")
+model_board %>% 
+  vetiver_pin_write(v)
+```
+

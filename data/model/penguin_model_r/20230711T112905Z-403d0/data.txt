@@ -1,0 +1,12 @@
+file: penguin_model_r.rds
+file_size: 17378
+pin_hash: 403d033db9557161
+type: rds
+title: 'penguin_model_r: a pinned list'
+description: An OLS linear regression model
+tags: ~
+created: 20230711T112905Z
+api_version: 1
+user:
+  required_pkgs: ~
+  renv_lock: ~

@@ -1,0 +1,14 @@
+{
+  "hash": "00f43fc74e560b38be9b05afc15fc345",
+  "result": {
+    "markdown": "---\ntitle: \"Model R\"\nformat: html\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(dplyr)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n\nVedhæfter pakke: 'dplyr'\n```\n:::\n\n::: {.cell-output .cell-output-stderr}\n```\nDe følgende objekter er maskerede fra 'package:stats':\n\n    filter, lag\n```\n:::\n\n::: {.cell-output .cell-output-stderr}\n```\nDe følgende objekter er maskerede fra 'package:base':\n\n    intersect, setdiff, setequal, union\n```\n:::\n\n```{.r .cell-code}\nlibrary(vetiver)\nlibrary(pins)\n```\n:::\n\n\n## Define model and fit\n\n\n::: {.cell}\n\n```{.r .cell-code}\npenguins <- palmerpenguins::penguins\nmodel <- lm(body_mass_g ~ bill_length_mm + species + sex, data = penguins)\n```\n:::\n\n\n## Create vetiver model\n\n\n::: {.cell}\n\n```{.r .cell-code}\nv <- vetiver_model(model, \"penguin_model_r\")\n```\n:::\n\n\n## Save to board\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmodel_board <- board_folder(\"data/model\")\nmodel_board %>% \n  vetiver_pin_write(v)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nCreating new version '20230711T112905Z-403d0'\nWriting to pin 'penguin_model_r'\n\nCreate a Model Card for your published model\n• Model Cards provide a framework for transparent, responsible reporting\n• Use the vetiver `.Rmd` template as a place to start\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
